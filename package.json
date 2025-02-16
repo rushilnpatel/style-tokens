@@ -1,0 +1,21 @@
+{
+  "name": "style-tokens",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build-tokens": "style-dictionary build",
+    "build-tokens:base": "style-dictionary build --config config.js",
+    "build-tokens:brand": "style-dictionary build --config brand-config.js",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "style-dictionary": "^4.3.2"
+  }
+}

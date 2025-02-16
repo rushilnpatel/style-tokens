@@ -1,0 +1,10 @@
+{
+    "fusion": {
+        "background": {
+            "primary": {
+                "light": { "value": "{color.navy.500.value}" },
+                "dark": { "value": "{color.navy.50.value}" }
+            }
+        }
+    }
+}
