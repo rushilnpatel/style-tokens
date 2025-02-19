@@ -1,0 +1,52 @@
+{
+    "font-family": {
+        "primary": {
+            "value": "{font.family.roboto.value}"
+        },
+        "secondary": {
+            "value": "{font.family.inter.value}"
+        }
+    },
+    "headline": {
+        "50": {
+            "value": "{unit.5.value}/{unit.6.value} {font-family.primary.value}"
+        },
+        "100": {
+            "value": "{unit.6.value}/{unit.7.value} {font-family.primary.value}"
+        },
+        "200": {
+            "value": "{unit.7.value}/{unit.8.value} {font-family.primary.value}"
+        },
+        "300": {
+            "value": "{unit.8.value}/{unit.9.value} {font-family.primary.value}"
+        }
+    },
+    "body": {
+        "50": {
+            "value": "{unit.5.value}/{unit.6.value} {font-family.secondary.value}"
+        },
+        "100": {
+            "value": "{unit.6.value}/{unit.7.value} {font-family.secondary.value}"
+        },
+        "200": {
+            "value": "{unit.7.value}/{unit.8.value} {font-family.secondary.value}"
+        },
+        "300": {
+            "value": "{unit.8.value}/{unit.9.value} {font-family.secondary.value}"
+        }
+    },
+    "caption": {
+        "50": {
+            "value": "{unit.4.value}/{unit.5.value} {font-family.secondary.value}"
+        },
+        "100": {
+            "value": "{unit.5.value}/{unit.6.value} {font-family.secondary.value}"
+        },
+        "200": {
+            "value": "{unit.6.value}/{unit.7.value} {font-family.secondary.value}"
+        },
+        "300": {
+            "value": "{unit.7.value}/{unit.8.value} {font-family.secondary.value}"
+        }
+    }
+}

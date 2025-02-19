@@ -1,25 +1,67 @@
 {
     "space": {
-        "0": { "value": "0.0625rem" },
-        "1": { "value": "0.125rem" },
-        "2": { "value": "0.25rem" },
-        "3": { "value": "0.5rem" },
-        "4": { "value": "0.75rem" },
-        "5": { "value": "1rem" },
-        "6": { "value": "1.25rem" },
-        "7": { "value": "1.5rem" },
-        "8": { "value": "1.75rem" },
-        "9": { "value": "2rem" },
-        "10": { "value": "2.25rem" },
-        "11": { "value": "2.5rem" },
-        "12": { "value": "2.75rem" },
-        "13": { "value": "3rem" },
-        "14": { "value": "3.5rem" },
-        "15": { "value": "4rem" },
-        "16": { "value": "4.5rem" },
-        "17": { "value": "5rem" },
-        "18": { "value": "5.5rem" },
-        "19": { "value": "6rem" },
-        "20": { "value": "6.5rem" }
+        "0": {
+            "value": "{unit.0.value}"
+        },
+        "1": {
+            "value": "{unit.1.value}"
+        },
+        "2": {
+            "value": "{unit.2.value}"
+        },
+        "3": {
+            "value": "{unit.3.value}"
+        },
+        "4": {
+            "value": "{unit.4.value}"
+        },
+        "5": {
+            "value": "{unit.5.value}"
+        },
+        "6": {
+            "value": "{unit.6.value}"
+        },
+        "7": {
+            "value": "{unit.7.value}"
+        },
+        "8": {
+            "value": "{unit.8.value}"
+        },
+        "9": {
+            "value": "{unit.9.value}"
+        },
+        "10": {
+            "value": "{unit.10.value}"
+        },
+        "11": {
+            "value": "{unit.11.value}"
+        },
+        "12": {
+            "value": "{unit.12.value}"
+        },
+        "13": {
+            "value": "{unit.13.value}"
+        },
+        "14": {
+            "value": "{unit.14.value}"
+        },
+        "15": {
+            "value": "{unit.15.value}"
+        },
+        "16": {
+            "value": "{unit.16.value}"
+        },
+        "17": {
+            "value": "{unit.17.value}"
+        },
+        "18": {
+            "value": "{unit.18.value}"
+        },
+        "19": {
+            "value": "{unit.19.value}"
+        },
+        "20": {
+            "value": "{unit.20.value}"
+        }
     }
 }

@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build-tokens": "style-dictionary build",
-    "build-tokens:base": "style-dictionary build --config config.js",
+    "build-tokens": "npm run build-tokens:base && npm run build-tokens:brand",
+    "build-tokens:base": "style-dictionary build --config base-config.js",
     "build-tokens:brand": "style-dictionary build --config brand-config.js",
     "dev": "vite",
     "build": "tsc && vite build",

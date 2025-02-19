@@ -2,52 +2,57 @@
     "font": {
         "family": {
             "roboto": {
-                "value": "Roboto, sans-serif",
-                "googleFontUrl": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900"
+                "value": "Roboto, sans-serif"
             },
             "inter": {
-                "value": "Inter, sans-serif",
-                "googleFontUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900"
+                "value": "Inter, sans-serif"
             },
             "dmSans": {
-                "value": "DM Sans, sans-serif",
-                "googleFontUrl": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;700;900&display=swap"
+                "value": "DM Sans, sans-serif"
             },
             "manrope": {
-                "value": "Manrope, sans-serif",
-                "googleFontUrl": "https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700;900&display=swap"
+                "value": "Manrope, sans-serif"
             },
             "mulish": {
-                "value": "Mulish, sans-serif",
-                "googleFontUrl": "https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700;900&display=swap"
+                "value": "Mulish, sans-serif"
             },
             "ibmPlexSans": {
-                "value": "IBM Plex Sans, sans-serif",
-                "googleFontUrl": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;700;900&display=swap"
+                "value": "IBM Plex Sans, sans-serif"
             },
             "workSans": {
-                "value": "Work Sans, sans-serif",
-                "googleFontUrl": "https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700;900&display=swap"
+                "value": "Work Sans, sans-serif"
             },
             "montserrat": {
-                "value": "Montserrat, sans-serif",
-                "googleFontUrl": "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap"
+                "value": "Montserrat, sans-serif"
             },
             "questrial": {
-                "value": "Questrial, sans-serif",
-                "googleFontUrl": "https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+                "value": "Questrial, sans-serif"
             }
         },
         "weight": {
-            "light": { "value": 300 },
-            "regular": { "value": 400 },
-            "bold": { "value": 700 },
-            "bolder": { "value": 900 }
+            "light": {
+                "value": 300
+            },
+            "regular": {
+                "value": 400
+            },
+            "bold": {
+                "value": 700
+            },
+            "bolder": {
+                "value": 900
+            }
         },
         "letterSpacing": {
-            "wide": { "value": "0.05rem" },
-            "tight": { "value": "-0.02rem" },
-            "normal": { "value": "0rem" }
+            "wide": {
+                "value": "0.05rem"
+            },
+            "dense": {
+                "value": "-0.02rem"
+            },
+            "normal": {
+                "value": "0rem"
+            }
         }
     }
 }

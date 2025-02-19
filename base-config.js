@@ -1,10 +1,11 @@
+import StyleDictionary from 'style-dictionary';
+
 export default {
-  source: ["src/style-tokens/base/**/*.json", "src/style-tokens/brands/**/*.json"],
+  source: ["src/style-tokens/base/**/*.json"],
   platforms: {
     css: {
       transformGroup: "css",
-      buildPath: "src/style-tokens/build/brand/css/",
-      prefix: "fusion",
+      buildPath: "src/style-tokens/build/base/css/",
 
       files: [
         {
@@ -18,21 +19,15 @@ export default {
     },
     scss: {
       transformGroup: "scss",
-      buildPath: "src/style-tokens/build/brand/scss/",
-      prefix: "fusion",
+      buildPath: "src/style-tokens/build/base/scss/",
       files: [
         {
           destination: "variables.scss",
-          format: "scss/variables"
-        },
-        {
-          destination: "fusion-variables.scss",
           format: "scss/variables",
           options: {
-            prefix: "fusion",
             outputReferences: true
           }
-        }
+        },
       ]
     },
   }

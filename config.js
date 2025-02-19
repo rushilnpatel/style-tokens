@@ -14,6 +14,7 @@ export default {
     css: {
       transformGroup: "css",
       buildPath: "src/style-tokens/build/css/",
+
       files: [
         {
           destination: "variables.css",
@@ -25,13 +26,33 @@ export default {
         {
           destination: "fusion-variables.css",
           format: "css/variables",
-          filter: "isBrandToken",
+          // filter: "isBrandToken",
           options: {
-            outputReferences: false
+            prefix: "fusion",
+            // outputReferences: false
+            outputReferences: true
           }
         }
       ]
     },
+    // brandCSS: {
+    //   transformGroup: "css",
+    //   buildPath: "src/style-tokens/build/css/",
+    //   prefix: "fusion",
+
+    //   files: [
+    //     {
+    //       destination: "fusion-variables.css",
+    //       format: "css/variables",
+    //       prefix: "fusion",
+    //       // filter: "isBrandToken",
+    //       options: {
+    //         // outputReferences: false
+    //         outputReferences: true
+    //       }
+    //     }
+    //   ]
+    // },
     scss: {
       transformGroup: "scss",
       buildPath: "src/style-tokens/build/scss/",
@@ -43,7 +64,11 @@ export default {
         {
           destination: "fusion-variables.scss",
           format: "scss/variables",
-          filter: "isBrandToken",
+          options: {
+            prefix: "fusion",
+            outputReferences: true
+          }
+          // filter: "isBrandToken",
         }
       ]
     },
