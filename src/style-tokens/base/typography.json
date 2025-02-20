@@ -33,7 +33,7 @@
             "light": {
                 "value": 300
             },
-            "regular": {
+            "default": {
                 "value": 400
             },
             "bold": {

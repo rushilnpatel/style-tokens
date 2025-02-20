@@ -1,0 +1,11 @@
+{
+    "container": {
+        "small": { "value": "{space.2.value}" },
+        "medium": { "value": "{space.3.value}" },
+        "large": { "value": "{space.5.value}" }
+    },
+    "layout": {
+        "section-gap": { "value": "{space.6.value}" },
+        "grid-gap": { "value": "{space.3.value}" }
+    }   
+}

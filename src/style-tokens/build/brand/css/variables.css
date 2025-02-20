@@ -173,7 +173,7 @@
   --fusion-font-family-montserrat: Montserrat, sans-serif;
   --fusion-font-family-questrial: Questrial, sans-serif;
   --fusion-font-weight-light: 300;
-  --fusion-font-weight-regular: 400;
+  --fusion-font-weight-default: 400;
   --fusion-font-weight-bold: 700;
   --fusion-font-weight-bolder: 900;
   --fusion-font-letter-spacing-wide: 0.05rem;
@@ -245,4 +245,9 @@
   --fusion-caption-100: var(--fusion-unit-5)/var(--fusion-unit-6) var(--fusion-font-family-secondary);
   --fusion-caption-200: var(--fusion-unit-6)/var(--fusion-unit-7) var(--fusion-font-family-secondary);
   --fusion-caption-300: var(--fusion-unit-7)/var(--fusion-unit-8) var(--fusion-font-family-secondary);
+  --fusion-container-small: var(--fusion-space-2);
+  --fusion-container-medium: var(--fusion-space-3);
+  --fusion-container-large: var(--fusion-space-5);
+  --fusion-layout-section-gap: var(--fusion-space-6);
+  --fusion-layout-grid-gap: var(--fusion-space-3);
 }
